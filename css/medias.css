@@ -1,0 +1,54 @@
+@media only screen and (max-width: 900px) {
+    #form-image {
+        display: none;
+    }
+
+    #outer-container {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        background: white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 8vw;
+
+    }
+    h4 {
+        font-size: 5vw;
+
+    }
+
+    #outer-container {
+        max-width: 100%;
+        border: none;
+        margin: 0;
+        box-shadow: none;
+        background: none;
+
+    }
+
+    #form-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    #user {
+        flex-direction: column;
+    }
+
+    .textInput {
+        width: 100%;
+        margin-top: 20px;
+        background: none;
+    }
+
+}
