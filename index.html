@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Pizzabestilling</title>
+    <title>Pizzaorder</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
         <div id="form-container">
             <img class="img-small" src="./assets/pizza.jpg" alt="">
-            <h1>Pizzabestilling</h1>
+            <h1>Pizzaorder</h1>
 
             <br>
 
@@ -30,9 +30,9 @@
 
                 <section id="text-section">
                     <input type="text" class="text-input" autocomplete="off" spellcheck="false" tabindex="0" aria-label="Fornavn"
-                        name="navn" value="" id="navn" data-initial-value="" placeholder="Indtast navn" required>
+                        name="navn" value="" id="navn" data-initial-value="" placeholder="Name" required>
                     <input type="email" class="text-input" autocomplete="off" spellcheck="false" tabindex="0"
-                        aria-label="Fornavn" name="email" value="" id="email" data-initial-value="" placeholder="Indtast email"
+                        aria-label="Fornavn" name="email" value="" id="email" data-initial-value="" placeholder="Email"
                         required>
                 </section>
 
@@ -40,9 +40,9 @@
 
                 <section class="pizza-select">
                     <select name="pizza-type" required>
-                        <option selected disabled value="">Vælg en pizza</option>
-                        <option>Pizza med slik</option>
-                        <option>Pizza uden slik</option>
+                        <option selected disabled value="">Choose a pizza</option>
+                        <option>Pizza with candy</option>
+                        <option>Pizza without slik</option>
                     </select>
                 </section>
 
@@ -50,10 +50,10 @@
 
                 <section class="pizza-select">
                     <select name="pizza-size" required>
-                        <option selected disabled value="">Pizzastørrelse</option>
-                        <option>Barn</option>
+                        <option selected disabled value="">Pizzasize</option>
+                        <option>Small</option>
                         <option>Normal</option>
-                        <option>Familie</option>
+                        <option>Family</option>
                     </select>
                 </section>
 
@@ -61,18 +61,18 @@
 
                 <section class="pizza-select">
                     <select name="pizza-hotness" required>
-                        <option selected disabled value="">Pizzastyrke</option>
+                        <option selected disabled value="">Pizzastrength</option>
                         <option>Mild</option>
                         <option>Normal</option>
                         <option>hot</option>
                         <option>Extra hot</option>
-                        <option>Dødelig</option>
+                        <option>Deadly</option>
                     </select>
                 </section>
 
                 <br>
 
-                <h4>Tilbehør:</h4>
+                <h4>Extras:</h4>
 
                 <section id="checkbox-section">
                     <div class="checkbox-container">
@@ -107,25 +107,25 @@
 
                 <br>
 
-                <h4>Vælg leveringsdato:</h4>
+                <h4>Choose date of delivery:</h4>
                 <section class="timedate-select">
-                    <input lang="da" placeholder="åååå-mm-dd" type="date" name="leveringsdato" id="leveringsdato"
+                    <input lang="en" placeholder="dd-mm-yyyy" type="date" name="deliverydate" id="deliverydate"
                         required>
                 </section>
 
                 <br>
 
-                <h4>Vælg leveringstid:</h4>
+                <h4>Choose time of delivery:</h4>
 
                 <section class="timedate-select">
-                    <input type="time" name="tid" placeholder="tt:mm (eksempel: 21:00)" required pattern="^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$"
-                        title="tt:mm (eksempel: 21:00)" />
+                    <input type="time" name="time" placeholder="tt:mm (example: 21:00)" required pattern="^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$"
+                        title="tt:mm (example: 21:00)" />
                 </section>
 
                 <br>
 
                 <div id="submit-button">
-                    <input type="submit" value="Bestil" name="submit" />
+                    <input type="submit" value="Order" name="submit" />
                 </div>
                 <input type="hidden" name="navn" value="fdf">
             </form>
