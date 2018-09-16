@@ -1,7 +1,7 @@
 import "./css/normalize.css"
-import "./css/css.css"
+import "./sass/css.scss"
 import "./sass/form-inputs.scss"
-import "./css/medias.css"
+import "./sass/medias.scss"
 //  datepicker-polyfill for ie11 - https://github.com/brianblakely/nodep-date-input-polyfill
 import "./datepicker-polyfill";
 
@@ -18,7 +18,7 @@ import "./datepicker-polyfill";
 
 [].slice.call(document.querySelectorAll('.checkbox-container')).forEach(v => {
     v.addEventListener('click', function () {
-        this.querySelector('.checkbox-box span').classList.toggle('toggle-check');
+        this.querySelector('.checkbox-box div').classList.toggle('toggle-check');
         this.querySelector('input').checked = this.querySelector('input').checked ? false : true;
 
     })

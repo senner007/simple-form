@@ -40,15 +40,17 @@
         width: 100%;
         padding: 0;
     }
-
-    #user {
+    #text-section {
+        
         flex-direction: column;
-    }
+        
+    
+        .text-input {
+            width: 100%;
+            margin-top: 20px;
+            background: none;
+        }
 
-    .textInput {
-        width: 100%;
-        margin-top: 20px;
-        background: none;
     }
-
+   
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
     <title>Pizzabestilling</title>
 </head>
 
@@ -27,39 +27,39 @@
             <br>
 
             <form action="#" method="POST">
-               
-                <div id="form-user">
-                    <input type="text" class="textInput" autocomplete="off" spellcheck="false" tabindex="0" aria-label="Fornavn"
-                        name="navn" value="" id="navn" data-initial-value="" placeholder="Indtast navn" required>
 
-                    <input type="email" class="textInput" autocomplete="off" spellcheck="false" tabindex="0" aria-label="Fornavn"
-                        name="email" value="" id="email" data-initial-value="" placeholder="Indtast email" required>
-                </div>
+                <section id="text-section">
+                    <input type="text" class="text-input" autocomplete="off" spellcheck="false" tabindex="0" aria-label="Fornavn"
+                        name="navn" value="" id="navn" data-initial-value="" placeholder="Indtast navn" required>
+                    <input type="email" class="text-input" autocomplete="off" spellcheck="false" tabindex="0"
+                        aria-label="Fornavn" name="email" value="" id="email" data-initial-value="" placeholder="Indtast email"
+                        required>
+                </section>
 
                 <br>
 
-                <div class="pizza-select">
+                <section class="pizza-select">
                     <select name="pizza-type" required>
                         <option selected disabled value="">Vælg en pizza</option>
                         <option>Pizza med slik</option>
                         <option>Pizza uden slik</option>
                     </select>
-                </div>
+                </section>
 
                 <br>
 
-                <div class="pizza-select">
+                <section class="pizza-select">
                     <select name="pizza-size" required>
                         <option selected disabled value="">Pizzastørrelse</option>
                         <option>Barn</option>
                         <option>Normal</option>
                         <option>Familie</option>
                     </select>
-                </div>
+                </section>
 
                 <br>
 
-                <div class="pizza-select">
+                <section class="pizza-select">
                     <select name="pizza-hotness" required>
                         <option selected disabled value="">Pizzastyrke</option>
                         <option>Mild</option>
@@ -68,54 +68,64 @@
                         <option>Extra hot</option>
                         <option>Dødelig</option>
                     </select>
-                </div>
+                </section>
 
                 <br>
 
                 <h4>Tilbehør:</h4>
 
-                <section id="checkbox-section" class="section">
+                <section id="checkbox-section">
                     <div class="checkbox-container">
-                        <div class="checkbox-box"><span>&#x2714;</span></div>
+                        <div class="checkbox-box">
+                            <div>&#x2714;</div>
+                        </div>
                         <div class="checkbox-text">Onion</div>
-                        <input type="checkbox" id="checkbox-Onion" name="checkbox-Onion"/>
+                        <input type="checkbox" id="checkbox-Onion" name="checkbox-Onion" />
                     </div>
                     <div class="checkbox-container">
-                        <div class="checkbox-box"><span>&#x2714;</span></div>
+                        <div class="checkbox-box">
+                            <div>&#x2714;</div>
+                        </div>
                         <div class="checkbox-text">Pineapple</div>
-                        <input type="checkbox" id="checkbox-Pineapple" name="checkbox-Pineapple"/>
+                        <input type="checkbox" id="checkbox-Pineapple" name="checkbox-Pineapple" />
                     </div>
                     <div class="checkbox-container">
-                        <div class="checkbox-box"><span>&#x2714;</span></div>
+                        <div class="checkbox-box">
+                            <div>&#x2714;</div>
+                        </div>
                         <div class="checkbox-text">Chili</div>
-                        <input type="checkbox" id="checkbox-Chili" name="checkbox-Chili"/>
+                        <input type="checkbox" id="checkbox-Chili" name="checkbox-Chili" />
                     </div>
                     <div class="checkbox-container">
-                        <div class="checkbox-box"><span>&#x2714;</span></div>
+                        <div class="checkbox-box">
+                            <div>&#x2714;</div>
+                        </div>
                         <div class="checkbox-text">Cheese</div>
-                        <input type="checkbox" id="checkbox-Cheese" name="checkbox-Cheese"/>
+                        <input type="checkbox" id="checkbox-Cheese" name="checkbox-Cheese" />
                     </div>
                 </section>
 
                 <br>
 
                 <h4>Vælg leveringsdato:</h4>
-                <div class="timedate-select">
-                    <input lang="da" placeholder="åååå-mm-dd" type="date" name="leveringsdato" id="leveringsdato" required>
-                </div>
+                <section class="timedate-select">
+                    <input lang="da" placeholder="åååå-mm-dd" type="date" name="leveringsdato" id="leveringsdato"
+                        required>
+                </section>
 
                 <br>
 
                 <h4>Vælg leveringstid:</h4>
 
-                <div class="timedate-select">
-                    <input type="time" name="tid" placeholder="tt:mm (eksempel: 21:00)" required pattern="^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" title="tt:mm (eksempel: 21:00)"/>
-                </div>
+                <section class="timedate-select">
+                    <input type="time" name="tid" placeholder="tt:mm (eksempel: 21:00)" required pattern="^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$"
+                        title="tt:mm (eksempel: 21:00)" />
+                </section>
 
-                <br>  
+                <br>
 
-                <div class="submit-button">
-                        <input type="submit" value="Bestil" name="submit" />
+                <div id="submit-button">
+                    <input type="submit" value="Bestil" name="submit" />
                 </div>
                 <input type="hidden" name="navn" value="fdf">
             </form>
