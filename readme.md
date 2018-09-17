@@ -5,7 +5,7 @@ https://www.codetoshow.com/pizza3
 - npm install
 
 ### To Run
-- npm run dev - go to localhost:8080/(horizontal-unary|horizontal-binary|vertical-binary|vertical-n-ary)
+- npm run dev
 
  ### To build (prod/library/loremsition.js)
 - npm run build
