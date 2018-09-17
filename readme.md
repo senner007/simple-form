@@ -7,7 +7,7 @@ https://www.codetoshow.com/pizza3
 ### To Run
 - npm run dev
 
- ### To build (prod/library/loremsition.js)
+ ### To build
 - npm run build
 
  ### Browser support:
