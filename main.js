@@ -2,7 +2,7 @@ import "./css/normalize.css"
 import "./sass/css.scss"
 import "./sass/form-inputs.scss"
 import "./sass/medias.scss"
-//  datepicker-polyfill for ie11 - https://github.com/brianblakely/nodep-date-input-polyfill
+//  datepicker-polyfill for ie11 - https://raw.githubusercontent.com/jcgertig/date-input-polyfill/master/date-input-polyfill.dist.js
 import "./datepicker-polyfill";
 
 
