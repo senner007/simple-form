@@ -15,4 +15,6 @@ https://www.codetoshow.com/pizza3
   - Chrome
   - Firefox
   - Edge
+  - Safari IOS
+  - Chrome IOS
 
