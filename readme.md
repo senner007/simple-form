@@ -1,5 +1,5 @@
 # Simple form
-https://www.codetoshow.com/pizza3
+https://www.nielshtg.dk/pizza3
 
 ### Install dependencies:
 - npm install
