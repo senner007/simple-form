@@ -1,5 +1,4 @@
-# Simple form
-https://www.nielshtg.dk/pizza3
+
 
 ### Install dependencies:
 - npm install
